@@ -1,0 +1,62 @@
+export const en: Record<string, string> = {
+  'nav.dashboard': 'Dashboard',
+  'nav.accounts': 'Account Manager',
+  'nav.campaigns': 'Campaign Builder',
+  'nav.targets': 'Target Lists',
+  'nav.logs': 'System Logs',
+  'nav.settings': 'Settings',
+
+  'sidebar.brand.primary': 'Bluesky',
+  'sidebar.brand.secondary': 'Pro Bot',
+  'sidebar.languageLabel': 'Language',
+  'sidebar.languageEnglish': 'English',
+  'sidebar.languageArabic': 'Arabic',
+  'sidebar.apiStatus': 'API Status',
+  'sidebar.activeAccounts': 'Active Accounts',
+  'sidebar.activeCampaigns': 'Active Campaigns',
+  'sidebar.liveActivity': 'Live Activity',
+  'sidebar.liveActivitySubtitle': 'Last 5 min',
+
+  'settings.title': 'Settings',
+  'settings.subtitle': 'Configure your bot behavior and preferences',
+  'settings.general.title': 'General',
+  'settings.general.botName': 'Bot Name',
+  'settings.general.botNamePlaceholder': 'Enter bot name',
+  'settings.general.language': 'Language',
+  'settings.general.languageEnglish': 'English',
+  'settings.general.languageArabic': 'Arabic',
+
+  'settings.automation.title': 'Automation Limits',
+  'settings.automation.maxPerHour': 'Max DMs per Hour',
+  'settings.automation.maxPerDay': 'Max DMs per Day',
+  'settings.automation.delay': 'Delay Between Actions (seconds)',
+  'settings.automation.infoHour': 'Limit to prevent rate limiting (recommended: 50)',
+  'settings.automation.infoDay': 'Daily limit to keep your account safe (recommended: 200)',
+  'settings.automation.infoDelay': 'Pause between actions to avoid detection (recommended: 5)',
+
+  'settings.security.title': 'Security',
+  'settings.security.appPassword': 'App Password',
+  'settings.security.appPasswordPlaceholder': 'Enter app password (masked)',
+  'settings.security.helper': 'Generate app passwords in your Bluesky account settings',
+
+  'settings.dangerZone.title': 'Danger Zone',
+  'settings.dangerZone.description': 'Irreversible actions that affect your data and settings.',
+  'settings.dangerZone.reset': 'Reset All Data',
+
+  'settings.actions.resetDefaults': 'Reset to Defaults',
+  'settings.actions.save': 'Save Changes',
+  'settings.actions.saving': 'Saving...',
+
+  'settings.feedback.success': 'Settings saved successfully!',
+  'settings.feedback.error': 'Failed to save settings. Please try again.',
+  'settings.feedback.loadError': 'Failed to load settings',
+  'settings.feedback.reset': 'All data has been reset.',
+
+  'settings.automationStats.title': 'Automation Overview',
+  'settings.automationStats.dmHour': 'DMs (Last Hour)',
+  'settings.automationStats.dmDay': 'DMs (Last 24h)',
+  'settings.automationStats.activeAccounts': 'Active Accounts',
+  'settings.automationStats.cooldown': 'Accounts in Cooldown',
+
+  'form.required': 'Please complete all required fields',
+};
